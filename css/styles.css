@@ -1,0 +1,43 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.video-item {
+    width: 300px;
+    margin: 10px;
+}
+
+.video-details {
+    padding: 20px;
+}
+
+.comments-section {
+    padding: 20px;
+}
